@@ -65,11 +65,6 @@ HotelManagementSystem/
 │-- requirements.txt      # Python dependencies
 │-- README.md             # Project documentation
 
-📸 Screenshots
-
-Add screenshots here if possible (GUI windows, booking screen, etc.)
-Example:
-
 🔮 Future Enhancements
 
 ✅ Online booking system with Flask/Django
@@ -78,9 +73,4 @@ Example:
 
 ✅ Role-based access (Receptionist, Manager, Admin)
 
-👩‍💻 Author
-
-Ishita Sahay
-💼 LinkedIn
-
-📧 Email
+✨ If you like this project, don’t forget to ⭐ star the repo!
