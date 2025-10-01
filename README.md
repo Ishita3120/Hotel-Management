@@ -1,76 +1,68 @@
 # Hotel-Management
-A full-fledged Hotel Management System built using Python (Tkinter GUI) and MySQL for database management.
-This project provides hotel staff with a simple yet powerful interface to handle customer bookings, room management, and billing.
+A Python + Tkinter + MySQL based project designed to simplify hotel operations.
+This system allows staff to manage customers, bookings, rooms, and billing with ease.
 
-📌 Features
+🌟 Key Features
 
-✅ Customer Management – Add, update, delete customer details
-✅ Room Booking – Allocate rooms, manage availability, checkout system
-✅ Billing System – Auto-calculate total bills based on room type & duration
-✅ Database Integration – MySQL used for persistent data storage
-✅ Reports – View all bookings and generate reports with timestamps
-✅ Login System – Admin & customer login with authentication
+🔹 Customer Management – Add, update, delete customer details
+🔹 Room Booking – Allocate rooms, manage availability, checkout system
+🔹 Billing System – Automatic total calculation based on stay duration & room type
+🔹 Database Integration – MySQL backend ensures reliable storage
+🔹 Reports – Track bookings and generate reports with timestamps
+🔹 Login System – Separate login for Admin and Customers
 
 ⚙️ Tech Stack
 
-Frontend (GUI): Tkinter (Python)
-
-Backend: Python
-
-Database: MySQL
+🖥️ Frontend (GUI): Tkinter
+🛠️ Backend: Python
+🗄️ Database: MySQL
 
 Libraries Used:
 
-tkinter – GUI
+tkinter → GUI
 
-pillow – Image handling
+pillow → Image handling
 
-mysql-connector-python – MySQL connectivity
+mysql-connector-python → Database connectivity
 
-🚀 How to Run
+🚀 Getting Started
+🔧 Installation
 
-Clone the Repository
+Clone the repo:
 
 git clone https://github.com/ishita3120/HotelManagementSystem.git
 cd HotelManagementSystem
 
 
-Install Dependencies
-Make sure Python is installed (>=3.8). Then run:
+Install dependencies:
 
 pip install -r requirements.txt
 
+🗄️ Database Setup
 
-Setup MySQL Database
-
-Open MySQL Workbench or CLI.
-
-Create a new database:
+Run the following in MySQL:
 
 CREATE DATABASE hotel_management;
 
 
-Import the tables (you can provide your .sql file here if you export it).
+(Import your .sql file if provided for tables)
 
-Run the Application
-
+▶️ Run the App
 python hotel.py
 
 📂 Project Structure
 HotelManagementSystem/
-│-- hotel.py              # Main file (launches the system)
-│-- customer2.py          # Customer window & logic
-│-- db.py                 # MySQL connection details
-│-- images/               # Images used in GUI
-│-- requirements.txt      # Python dependencies
-│-- README.md             # Project documentation
+│-- hotel.py          # Main file (launches the system)
+│-- customer2.py      # Customer window & logic
+│-- db.py             # MySQL connection details
+│-- images/           # Images used in GUI
+│-- requirements.txt  # Python dependencies
+│-- README.md         # Project documentation
 
-🔮 Future Enhancements
+🔮 Future Roadmap
 
-✅ Online booking system with Flask/Django
+✨ Add online booking system (Flask/Django backend)
+✨ Export billing reports as PDF/CSV
+✨ Add role-based access (Receptionist, Manager, Admin)
 
-✅ PDF report export for billing
-
-✅ Role-based access (Receptionist, Manager, Admin)
-
-✨ If you like this project, don’t forget to ⭐ star the repo!
+⭐ If you found this project useful, don’t forget to star this repo on GitHub!
