@@ -10,6 +10,8 @@ This system allows staff to manage customers, bookings, rooms, and billing with 
 🔹 Database Integration – MySQL backend ensures reliable storage
 🔹 Reports – Track bookings and generate reports with timestamps
 🔹 Login System – Separate login for Admin and Customers
+• Learned modular design, debugging GUI workflows, and database-driven application structure.
+
 
 ⚙️ Tech Stack
 
