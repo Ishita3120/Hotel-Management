@@ -103,7 +103,7 @@ class DetailsRoom:
              messagebox.showerror("Error","All fields are required",parent=self.root)
         else:
             try:
-                conn=mysql.connector.connect(host="localhost",username="root",password="Ishitaipshita@31",database="management1")
+                conn=mysql.connector.connect(host="localhost",username="root",password="your_password",database="management1")
                 my_cursor=conn.cursor()
                 my_cursor.execute("insert into details values(%s,%s,%s)",(
                                                                                     self.var_floor.get(),
@@ -120,7 +120,7 @@ class DetailsRoom:
 
 #============================Fetch data================================
     def fetch_data(self):
-        conn=mysql.connector.connect(host="localhost",username="root",password="Ishitaipshita@31",database="management1")
+        conn=mysql.connector.connect(host="localhost",username="root",password="your_password",database="management1")
         my_cursor=conn.cursor()  
         my_cursor.execute("select * from details")
         rows=my_cursor.fetchall()
@@ -146,7 +146,7 @@ class DetailsRoom:
         if self.var_floor.get== "":
             messagebox.showerror("Error","Please enter floor number",parent=self.root)
         else:    
-            conn=mysql.connector.connect(host="localhost",username="root",password="Ishitaipshita@31",database="management1")
+            conn=mysql.connector.connect(host="localhost",username="root",password="your_password",database="management1")
             my_cursor=conn.cursor()  
             my_cursor.execute("update details set Floor=%s,RoomType=%s where RoomNo=%s",(
 
@@ -166,7 +166,7 @@ class DetailsRoom:
     def  mDelete(self):
         mDelete=messagebox.askyesno("Hotel Management System","Do you want to delete this room details", parent=self.root)
         if mDelete>0:
-            conn=mysql.connector.connect(host="localhost",username="root",password="Ishitaipshita@31",database="management1")
+            conn=mysql.connector.connect(host="localhost",username="root",password="your_password",database="management1")
             my_cursor=conn.cursor()
             query="delete from details where RoomNo=%s"
             value=(self.var_roomno.get(),)
